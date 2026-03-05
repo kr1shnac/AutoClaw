@@ -1,0 +1,23 @@
+# Python Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# AutoClaw Specific Secrets & State
+auth/state.json
+candidate_profile.json
+vault/
+*.sqlite3
+*.db
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Streamlit & UI
+.streamlit/
+
+# OS Files
+.DS_Store
+Thumbs.db
