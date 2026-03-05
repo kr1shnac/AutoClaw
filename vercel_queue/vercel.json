@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "autoclaw-telegram-queue",
+    "builds": [
+        {
+            "src": "api/*.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api/(.*)",
+            "dest": "/api/$1"
+        }
+    ]
+}
